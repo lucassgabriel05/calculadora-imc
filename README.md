@@ -1,0 +1,8 @@
+print("---------------------------------------------")
+print(   "Bem vindos à calculadora virtual de IMC"   )
+print("---------------------------------------------")
+peso = float(input("Digite seu peso em KG: "))
+altura = float(input("Digite sua altura em metros: "))
+nome = input("Por fim, digite seu nome: ")
+IMC = peso / (altura ** 2)
+print ("Muito bem, ",nome,"calculando seu IMC com base nos dados fornecidos, o resultado final é de ", f"{IMC:.2f}")
